@@ -1,14 +1,15 @@
 /* Delcaring CSS variables used throughout entirety of webpage */
 :root {
-    --primary-color: #7b1fa2;
-    --secondary-color: #c2185b;
-    --text-color: #ffffff;
+    --primary-color: #660708;
+    --secondary-color: #161a1d;
+    --text-color: #d9dcd6;
+    --font-Oswald: "Oswald", sans-serif;
 }
 
 body {
     background-color: var(--primary-color);
     color: var(--text-color);
-    font-family: Arial, sans-serif;
+    font-family: var(--font-Oswald);
     margin: 0;
     padding: 0;
 }
