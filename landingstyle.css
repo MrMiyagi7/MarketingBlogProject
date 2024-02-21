@@ -8,11 +8,16 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color); 
     color: var(--text-color);
     font-family: var(--font-Oswald);
     margin: 0;
     padding: 0;
+}
+#logo-img {
+    width: 200px;
+    display: block;
+    margin: 5px auto;
 }
 
 header {
@@ -59,15 +64,43 @@ h1 {
     padding: 20px;
     width: 30%;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(2, 51, 156, 0.2), 0 6px 20px 0 rgba(2, 51, 156, 0.2);
+    /* margin-right: 3px; Ask client which layout they prefer
+    margin-left: 3px; */
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(2, 51, 156, 0.384), 0 6px 20px 0 rgba(2, 51, 156, 0.2);
 }
+
+.company-logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.read-more-btn {
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--text-secondary-color);
+    padding: 4px 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 2px rgba(2, 51, 156, 0.363);
+    transition: all 0.3s ease;
+}
+.read-more-btn:hover {
+    
+    background: rgba(50, 115, 255, 0.2); 
+    background: linear-gradient(0deg, rgba(42, 103, 236, 0.815) 0%, rgba(2, 51, 156, 0.836) 100%); 
+}
+
 
 footer {
     background-color: var(--secondary-color);
     color: var(--text-secondary-color);
     text-align: center;
     padding: 10px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
